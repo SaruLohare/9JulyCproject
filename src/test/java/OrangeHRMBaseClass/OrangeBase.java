@@ -29,9 +29,7 @@ public class OrangeBase
 		driver.manage().window().maximize();
 		
 		
-		
 		Utility.wait(driver, 1000);
-		
 		
 		
 		Reporter.log("launching browser......", true);
