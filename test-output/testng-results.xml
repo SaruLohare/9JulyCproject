@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[sending username]]>
+    </line>
+    <line>
+      <![CDATA[sending password]]>
+    </line>
+    <line>
+      <![CDATA[click on loginbutton]]>
+    </line>
+    <line>
+      <![CDATA[clickon PIM]]>
+    </line>
+    <line>
+      <![CDATA[getting text from emplist button]]>
+    </line>
+    <line>
+      <![CDATA[TestvalidateEMPList case is completed successfully]]>
+    </line>
+    <line>
+      <![CDATA[logout from orange hrm]]>
+    </line>
+    <line>
+      <![CDATA[closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-29T17:38:37 IST" name="Default suite" finished-at="2022-11-29T17:38:56 IST" duration-ms="18929">
+    <groups>
+    </groups>
+    <test started-at="2022-11-29T17:38:37 IST" name="Default test" finished-at="2022-11-29T17:38:56 IST" duration-ms="18929">
+      <class name="OrangeHRMTestClass.OrangeHrmValidateEmplistButton">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:OrangeHRMTestClass.OrangeHrmValidateEmplistButton@6c80d78a]" started-at="2022-11-29T17:38:37 IST" name="launchBrowser" finished-at="2022-11-29T17:38:50 IST" duration-ms="12629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logintoOrangeHRM()[pri:0, instance:OrangeHRMTestClass.OrangeHrmValidateEmplistButton@6c80d78a]" started-at="2022-11-29T17:38:50 IST" name="logintoOrangeHRM" finished-at="2022-11-29T17:38:51 IST" duration-ms="807" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[sending username]]>
+            </line>
+            <line>
+              <![CDATA[sending password]]>
+            </line>
+            <line>
+              <![CDATA[click on loginbutton]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logintoOrangeHRM -->
+        <test-method signature="validateEMPList()[pri:0, instance:OrangeHRMTestClass.OrangeHrmValidateEmplistButton@6c80d78a]" started-at="2022-11-29T17:38:51 IST" name="validateEMPList" finished-at="2022-11-29T17:38:54 IST" duration-ms="3955" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clickon PIM]]>
+            </line>
+            <line>
+              <![CDATA[getting text from emplist button]]>
+            </line>
+            <line>
+              <![CDATA[TestvalidateEMPList case is completed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateEMPList -->
+        <test-method is-config="true" signature="logoutOrange()[pri:0, instance:OrangeHRMTestClass.OrangeHrmValidateEmplistButton@6c80d78a]" started-at="2022-11-29T17:38:54 IST" name="logoutOrange" finished-at="2022-11-29T17:38:56 IST" duration-ms="1325" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout from orange hrm]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutOrange -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:OrangeHRMTestClass.OrangeHrmValidateEmplistButton@6c80d78a]" started-at="2022-11-29T17:38:56 IST" name="closeBrowser" finished-at="2022-11-29T17:38:56 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- OrangeHRMTestClass.OrangeHrmValidateEmplistButton -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
